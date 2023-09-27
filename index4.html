@@ -1,0 +1,36 @@
+<!--Ishmael Sutton-->
+<html lang="en">
+<!DOCTYPE html>
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY FIRST WEBSITE </title>
+    <link rel="stylesheet" href="main.css">
+    <script src = "strtbutton.js"></script>
+</head>
+<!--these are my headers for and from the previous assignments welcoming visitors to my webpage to view my imvu avatar-->
+    <center>  
+    <h1 style="color:white;"> WELCOME ALL VISITORS TO MY FIRST WEBSITE </h1>
+    <h2 style="color: green;"> FEATURING MY IMVU AVATAR</h2> 
+    <p style="color:white;"> You can see by clicking on the link below on instagram shows my imvu avatar also featured on "imvu.com", imvu is a virtual 3d Chat where you can create, and virutally live out your experiences on the game with avatars and the video below is an example of an avatar from the game.</p>
+
+<!--line 19 declares that the script language is in javascript-->
+<script language = "javascript" type = "text/javascript"></script>
+
+<p> <img align = "left" src="munay.png" width="300" height="300"/> </p>
+<!--line 23 is the header-->
+<!--line 25 and 26 are the start and stop buttons with the id of the fuction for the javascript file-->
+ <h1> START AND STOP BUTTON</h1>
+ <button id = "start" onclick = "start();"> Start </button> 
+ <button id = "pause" onclick = "stop();"> Stop </button> 
+ <!--lines 28-30 are the audio input of an instrumental saved in my javascript folder-->
+ <audio controls> 
+    <source src = "Migos-stir-fry-instrumentalfx.mp3" type = audio/mpeg>
+ </audio>
+ <!--line 31 inputs a button with a function for the javascript file to play the instrumental input in code in line 29-->
+ <button onclick = "Playsound();"> Play</button>
+ <!--lines 34 inputs a button with a function that discontinues the instrumental on the webpage from playing-->
+ <button onclick = "Stopsound();"> Stop</button>
+</body>
+</html>

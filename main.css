@@ -1,0 +1,33 @@
+
+body
+{background-color:black;}
+h2 {
+    color:green;
+     margin-right: 20px;
+    }
+h1 {color:yellowgreen;
+     margin-right: 20px } 
+P {color:hotpink;}
+h4 { color:purple;}
+nav
+{
+    background-color: aqua;
+    display:-moz-inline-box;
+    height: 50px;
+    width: 2000px;
+    padding: 5px;
+    line-height: 30px;
+}
+p {font-family:'Times New Roman',Verdana, Geneva, Tahoma, sans-serif ;}
+.buttons
+{background-color: purple;
+border-color: green;
+width: 95px;
+height: 40px;
+border-radius: 60px;
+border-style:dotted;}
+footer
+{
+    background-color: chartreuse;
+}
+
